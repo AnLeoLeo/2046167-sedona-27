@@ -1,12 +1,78 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
-  <body>
+  <body class="page_body">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+    <header class="main_header">
+      <nav>
+        <a>Главная</a>
+        <a>Меню</a>
+        <ul>
+          <li>Главная</li>
+          <li>Фото и видео</li>
+          <li>Форма отзыва</li>
+          <li>HTML Academy</li>
+        </ul>
+        <a>Закрыть</a>
+      </nav>
+      <img src="./img/main.png" alt=""/>
+      <h1>Фото и видео</h1>
+      <p>Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике</p>
+    </header>
+
+    <main class="main_container">
+      <section class="item">
+        <img class="item_image" src="./img/catalog/1.png" alt="Неродные просторы" />
+        <h2 class="item_block_text">Неродные просторы</h2>
+        <p class="item_description">Автор фото: Борис</p>
+        <p class="counter"><a class="like"></a> 1350</p>
+      </section>
+
+      <section class="item">
+        <img class="item_image" src="./img/catalog/2.png" alt="Местная растительность" />
+        <h2 class="item_block_text">Местная растительность</h2>
+        <p class="item_description">Автор фото: Сергей</p>
+        <p class="counter"><a class="like"></a> 143</p>
+      </section>
+
+      <section class="item">
+        <img class="item_image" src="./img/catalog/3.png" alt="Дорога на Север" />
+        <h2 class="item_block_text">Дорога на север</h2>
+        <p class="item_description">Автор фото: Петр</p>
+        <p class="counter"><a class="like"></a> 96</p>
+      </section>
+
+      <section class="item">
+        <img class="item_image" src="./img/catalog/4.png" alt="Мост Дьявола" />
+        <h2 class="item_block_text">Мост дъявола</h2>
+        <p class="item_description">Автор фото: Антон</p>
+        <p class="counter"><a class="like"></a> 254</p>
+      </section>
+
+      <section>
+        <h2>Все еще сомневаетесь?</h2>
+        <p>Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+        <img class="video" src="./img/catalog/video.png" alt="видео обзор" />
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <section>
+        <h2 class="hashtag">#visitsedona</h2>
+      </section>
+      <section>
+        <a>VK</a>
+        <a>TG</a>
+        <a>Yotube</a>
+      </section>
+      <section>
+        Разработано HTML Academy
+      </section>
+    </footer>
 
   </body>
 </html>
