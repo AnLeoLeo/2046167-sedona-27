@@ -53,12 +53,22 @@
         </section>
         <section>
           <h2>Ваше общее впечатление</h2>
+          <form action="https://echo.htmlacademy.ru/courses" method="get">
           <ul>
-            <li><label><input type="radio"/></label></li>
-            <li><label><input type="radio"/></label></li>
-            <li><label><input type="radio"/></label></li>
-            <li><label><input type="radio"/></label></li>
+            <li>
+            <input type="radio" id="major" name="fav_language" value="major">
+            <label for="major">Скорее положительное</label>
+            </li>
+            <li>
+            <input type="radio" id="negative" name="fav_language" value="negative">
+            <label for="negative">Скорее отрицательное</label>
+            </li>
+            <li>
+            <input type="radio" id="no-answer" name="fav_language" value="no-answer">
+            <label for="no-answer">Затрудняюсь ответить</label>
+            </li>
           </ul>
+          </form>
         </section>
         <section>
           <h2>Посещенные достопримесательности</h2>
